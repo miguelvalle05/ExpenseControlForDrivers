@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reporte: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight=".6"/>
+
+
+        <TextView
+            android:id="@+id/txtReporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reporte "
+            android:textSize="17sp"
+            android:layout_weight=".6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chofer: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight=".6"/>
+
+
+        <TextView
+            android:id="@+id/txtChofer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chofer "
+            android:textSize="17sp"
+            android:layout_weight=".6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Viaje: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight=".6"/>
+
+
+        <TextView
+            android:id="@+id/txtViaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Viaje "
+            android:textSize="17sp"
+            android:layout_weight=".6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight=".6"/>
+
+
+        <TextView
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario "
+            android:textSize="17sp"
+            android:layout_weight=".6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gasto: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight=".6"/>
+
+
+        <TextView
+            android:id="@+id/txtGasto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gasto "
+            android:textSize="17sp"
+            android:layout_weight=".6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Importe: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight=".6"/>
+
+
+        <TextView
+            android:id="@+id/txtImporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Importe "
+            android:textSize="17sp"
+            android:layout_weight=".6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight=".6"/>
+
+
+        <TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha "
+            android:textSize="17sp"
+            android:layout_weight=".6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estatus: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight=".6"/>
+
+
+        <TextView
+            android:id="@+id/txtEstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estatus "
+            android:textSize="17sp"
+            android:layout_weight=".6"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/borderColor"/>
+
+
+
+</LinearLayout>

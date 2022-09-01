@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/alta_chofer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:visibility="visible"
+                android:background="?android:colorBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/homeimagen"
+                        android:layout_width="400dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/traco" />
+
+
+                </LinearLayout>
+
+
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Acerca de nosotros \n\n
+Somos una empresa que traslada los automóviles de las plantas terminales a su red de distribuidores, entregando en tiempo, lugar y sin daños, contamos con personal capacitado y obtenemos los resultados deseados.
+
+\n\nNuestra visión es ser lider en el movimiento de nuevas unidades, a traves de un equipo de trabajo adecuado, logrando calidad, eficiencia y satisfacción del cliente, a través de una constante actualización de la empresa.
+
+\n\nLos valores que rigen nuestra organización son el orden, la participación, la responsabilidad, la disciplina y el respeto.
+\n\nEn nuestra política de calidad anticipamos las expectativas y las necesidades del cliente, agregando los esfuerzos para hacer las cosas bien al principio. "
+                        android:textSize="17sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold|italic"
+
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </com.google.android.material.textview.MaterialTextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/homeimagen2"
+                        android:layout_width="400dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/home" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

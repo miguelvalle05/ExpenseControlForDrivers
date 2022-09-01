@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/alta_personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:visibility="visible"
+                android:background="?android:colorBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/alta_img_reporte"
+                        android:layout_width="400dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/reporte" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/altard_spc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:visibility="visible">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <fr.ganfra.materialspinner.MaterialSpinner
+                            android:id="@+id/sprdChofer"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            app:boxStrokeColor="@color/borderColor"
+                            app:ms_arrowColor="#03A9F4"
+                            app:ms_arrowSize="20dp"
+                            android:entries="@array/opciones"
+                            app:ms_baseColor="@color/colorPrimary"
+                            app:ms_enableFloatingLabel="false"
+                            app:ms_hint="Chofer"
+                            app:ms_thickness="1dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/altard_spv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:visibility="visible">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <fr.ganfra.materialspinner.MaterialSpinner
+                            android:id="@+id/sprdViaje"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            app:boxStrokeColor="@color/borderColor"
+                            app:ms_arrowColor="#03A9F4"
+                            app:ms_arrowSize="20dp"
+                            android:entries="@array/opciones"
+                            app:ms_baseColor="@color/colorPrimary"
+                            app:ms_enableFloatingLabel="false"
+                            app:ms_hint="Viaje"
+                            app:ms_thickness="1dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/altard_spu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:visibility="visible">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <fr.ganfra.materialspinner.MaterialSpinner
+                            android:id="@+id/sprdUsario"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            app:boxStrokeColor="@color/borderColor"
+                            app:ms_arrowColor="#03A9F4"
+                            app:ms_arrowSize="20dp"
+                            android:entries="@array/opciones"
+                            app:ms_baseColor="@color/colorPrimary"
+                            app:ms_enableFloatingLabel="false"
+                            app:ms_hint="Usuario"
+                            app:ms_thickness="1dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/altard_sptg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:visibility="visible">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <fr.ganfra.materialspinner.MaterialSpinner
+                            android:id="@+id/sprdTipog"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            app:boxStrokeColor="@color/borderColor"
+                            app:ms_arrowColor="#03A9F4"
+                            app:ms_arrowSize="20dp"
+                            android:entries="@array/opcionesgasto"
+                            app:ms_baseColor="@color/colorPrimary"
+                            app:ms_enableFloatingLabel="false"
+                            app:ms_hint="Tipo de gasto"
+                            app:ms_thickness="1dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/altad_lay_importe"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/importe"
+                        android:textColorHint="@color/borderColor"
+                        app:boxStrokeColor="@color/borderColor"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/altad_inp_importe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:hint="@string/fecha">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/fechaIngresoCreard"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/borderColor"
+                            app:boxStrokeColor="@color/borderColor"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:hint="@string/fecha"
+                            android:inputType="date"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <Button
+                            android:id="@+id/btnDateCreard"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:drawable/ic_menu_my_calendar" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:id="@+id/altard_spe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:visibility="visible">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+
+                        <fr.ganfra.materialspinner.MaterialSpinner
+                            android:id="@+id/sprdEstatus"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            app:boxStrokeColor="@color/borderColor"
+                            app:ms_arrowColor="#03A9F4"
+                            app:ms_arrowSize="20dp"
+                            android:entries="@array/opciones"
+                            app:ms_baseColor="@color/colorPrimary"
+                            app:ms_enableFloatingLabel="false"
+                            app:ms_hint="Estatus"
+                            app:ms_thickness="1dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+
+                            />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/edit_reporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:visibility="visible"
+                android:background="?android:colorBackground">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/edit_btn_reporte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/edit_reporte"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/delete_reporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:visibility="visible"
+                android:background="?android:colorBackground">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/delete_btn_reporte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/delete_reporte"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/alta_lay_idrd"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/borderColor"
+                    app:boxStrokeColor="@color/borderColor"
+                    android:hint="@string/idusuario"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/alta_inp_idrd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

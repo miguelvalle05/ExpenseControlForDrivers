@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Traz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Transdriza</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_reporte">Reporte</string>
+    <string name="menu_usuarios">Usuarios</string>
+    <string name="menu_chofer">Chofer</string>
+    <string name="menu_listar">Listar</string>
+    <string name="menu_salir">Salir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tittle_login">Inicio de sesion</string>
+    <string name="tittle_user">Usuario</string>
+    <string name="tittle_pwd">Contraseña</string>
+    <string name="button_Login">Iniciar Sesion</string>
+    <string name="title_activity_home">Home</string>
+
+
+    <string name="nombre">Nombre</string>
+    <string name="tipo">Tipo de usuario</string>
+    <string name="paterno">Apellido paterno</string>
+    <string name="materno">Apellido materno</string>
+    <string name="puesto">Puesto</string>
+    <string name="importe">Importe</string>
+    <string name="user">Username</string>
+    <string name="pwd">Password</string>
+    <string name="estatus">Estatus</string>
+    <string name="save">Crear</string>
+    <string name="fetch_user">Buscar Usuario</string>
+    <string name="idusuario">ID</string>
+    <string name="delete_user">Eliminar Usuario</string>
+    <string name="edit_user">Editar Usuario</string>
+    <string name="fetch_chofer">Buscar Chofer</string>
+    <string name="edit_chofer">Editar Chofer</string>
+    <string name="delete_chofer">Eliminar Chofer</string>
+    <string name="fecha">Fecha</string>
+
+    <string name="edit_reporte">Editar Reporte</string>
+    <string name="fetch_reporte">Buscar Reporte</string>
+
+    <string name="delete_reporte">Eliminar Reporte</string>
+
+    <string name="documento">Documento</string>
+
+
+</resources>

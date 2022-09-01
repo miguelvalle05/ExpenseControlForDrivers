@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_consultor"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.traz.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+
+
+
+    <fragment
+        android:id="@+id/nav_listar"
+        android:name="com.example.traz.ui.listar.ListarFragment"
+        android:label="@string/menu_listar"
+        tools:layout="@layout/fragment_listar" />
+
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.example.traz.ui.salir.SalirFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+</navigation>
